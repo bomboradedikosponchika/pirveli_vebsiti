@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+
+}
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background:  #1b9bff;
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: blue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){ 
+label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+}
+}
+nav ul li a{
+    font-size: 16px;
+}
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+
+    background: rgb(27, 27, 27);
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap ;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-image{
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+
+}
+
+.car-1 {
+    background-image: url(./89aabe51ddb5b6eb4493038f31d4a4c3.jpg)
+
+ }
+
+
+ .car-2 {
+     background-image: url(./spectacular-gaming-room-interior-gaming-pc-gaming-desk-game-setup-room-tv-desk-for-five-people-futuristic-led-lights-cyberpunk-color-generative-ai-photo.jpg);
+ }
+
+.car-3{
+    background-image: url(./download\ \(1\).jpeg);
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: wheat;
+    cursor: pointer;
+    transform: scale(1.03);
+}
